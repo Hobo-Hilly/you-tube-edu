@@ -3,9 +3,6 @@ Instructor: Josh Brower
 Installation - Part 1
 #  HEADS UP!!! THIS DEMO IS ALL IN RELATION TO VMWARE. That is all. Thank you. !!!!!!
 
-
-
-
 # Agenda 
 In this episode we will be starting the installation process of the Operating System that is The Security Onion.
 1. Download ISO
