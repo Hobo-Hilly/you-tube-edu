@@ -142,5 +142,44 @@ Christmas has come early!!
 - All of the previoulsy mentioned tools above are $FREE.99./ Free and open source.
 -  Allows us to really fine tune the application(adding to it) for my unique environment
 
+
 Use Cases & Deployment Modes
 
+1. Forensic Analysis
+Scenario: You want to stand up a small virtual machine. Run some forensic analysis, using pcaps || other types of logs you might have.
+This calls for an 
+# "Import Node"
+- All the network tools and everything related to it will generate alerts. "Zeek" will generate the data based on that packet capture.
+
+2. Analyst Work Station
+Scenario: You are working through an incident. You have to pull out a packet capture || work with a binary in some way. You want to be careful not infect the underlying work station that you're using.
+- This comes pre installed with some commonly used tools like Wireshark and network minor.
+- This is based off of centOS-7
+
+
+NOTE: The two deployment modes above DO NOT capture live traffic.
+
+Live traffic capture can be found in the next coupld deployment modes 
+
+3. Testing
+    - Only used for testing and evaluation
+    - NOT / !  for production environments. ever.
+
+Capturing live traffic in a Productuion Environment would require the use of production mode. Boy they nailed the naming convention. lol
+
+4. Production
+    Standalone
+        - Means you would install all of the tools mentioned earlier on ONE machine.
+        - Should really only be used in small environments where you do not have a lot of traffic.
+
+    
+    Distributed
+        - You would distrubute the tools to two or more machines. In a distrubuted environment you will install the Operating System, Infrastructure, Network & Host Data, and Analyst Tools on seperate NODES/Machines. These would all make up our security onion grid.
+
+NOTE: Context, you would say you have a security onion grid which is made us of NODES.
+
+# Where to get Help?
+securityonion.net/help
+docs.securityonion.net,FAQ
+Community Support Forum(Github Discussions)
+Paid Support by securoty onion solutions
