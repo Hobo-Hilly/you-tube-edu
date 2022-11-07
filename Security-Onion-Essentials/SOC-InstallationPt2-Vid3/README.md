@@ -437,7 +437,7 @@ This means that any ip address on the 80's subnet would have access to the SOC. 
 
 
 ----------------------------------------------------------------------------------------------------------
-This is now a summary page with options we did select and some we did NOT have the option to select.
+This is now a summary page with options we did select and some we did NOT have the option to select. The settings in eval mode are preset in some areas.
 
 # BP 28
 
@@ -487,3 +487,5 @@ Press TAB to select yes or no.
 
     <Yes>           <No>
 
+
+Select Yes and setup will initiate.
