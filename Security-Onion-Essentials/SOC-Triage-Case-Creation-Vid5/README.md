@@ -229,3 +229,28 @@ These are individual artifacts that come up in the investigation
 
 # EVENTS
 These are the events in the Security Onion that have been escalated to a case.
+This means they have been copied from the security onion database INTO the CASES database to be retained as 
+evidence for this case.
+
+- If you click on the carrot to the left of the timestamp if expands details
+- You can click the eyeball to the left (where the carrot would be) of the IP address and add it to observable
+# What if I want to add a source IP and or a Destination IP to the Obseravbles tab?
+After expanding details in the EVENTS tab
+1. Select the eyeball to the left of the source IP | fill out and click save
+2. Select the eyeball to the left of the destination IP | Fill out and click save
+
+Now both IP's are in the observables
+
+
+# History
+Shows a full history of the case.
+Any changes made. Who made them, When they made them.
+For audit purposes
+---------------------------------------------------------------------------------------------------------------
+STATUS: up to this point we have added a case to our case management system that says we have a potential Zbot infection on this '192.168.3.65' machine. We have added a source IP and a Destination IP to Observables.
+
+# Whats the next move? 
+
+Now would be a good time to pivot back to alerts and do a little more investigation. A good idea would be to switch back to the alerts tab. Find the source IP. Click it and select only
+
+So now in the ALERTS tab we will only see Alerts involving the ip addr '192.168.3.65
