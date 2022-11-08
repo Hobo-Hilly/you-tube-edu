@@ -320,6 +320,6 @@ Once you click on the crosshairs you'll be able to see any other machines on my 
 # Summary
 
 The Alerts interface acts as a starting point to inform analysts of malicious or problematic events on the network. We can choose to acknowledge and dissmiss the || escalate them into cases for further investigation
-Once something is escalated to cases, that can be used to record the details of the investigation 
+Once something is escalated to cases, that can be used to record the details of the investigation including related events, observables, attachments and more
 
 
