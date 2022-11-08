@@ -10,6 +10,11 @@ Summary: We are goig to go over how to use the 1st Workflow in Security Onion pl
 - Escalate one alert to case using the case management tool
 - So we are going to take a look at some data to see how you can manage things during an investigation
 -------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 AFTER LOGGING IN to the Security Onion Console web interface
 From the Security Onion Console Overview Page
 
